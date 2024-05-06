@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10 px;
+}
+
+footer {
+  background: #212526;
+  max-width: 1920px;
+}/*# sourceMappingURL=footer.css.map */
