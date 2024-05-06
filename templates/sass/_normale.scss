@@ -10,10 +10,10 @@ a {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 @mixin textStyle($font-size, $font-weight, $font-family, $color) {
   font-family: $font-family;
