@@ -15,7 +15,7 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
-@mixin textstayle($font-size, $font-weight, $font-family, $color) {
+@mixin textStyle($font-size, $font-weight, $font-family, $color) {
   font-family: $font-family;
   font-weight: $font-weight;
   font-size: $font-size;
