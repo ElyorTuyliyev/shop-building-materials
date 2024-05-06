@@ -1,0 +1,128 @@
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer__message {
+  background-color: #515668;
+  padding: 16px 0;
+}
+
+.footer__message-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.footer__message-icon-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__message-text {
+  max-width: 153px;
+  width: 100%;
+  @include textstayle(16px, 400, Ubuntu, #fff);
+  line-height: 20px;
+}
+
+.footer__message-serch-email {
+  max-width: 475px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.footer__input-serch {
+  max-width: 475px;
+  width: 100%;
+  padding: 12px 150px 12px 20px;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  box-shadow: 0px 2px 6px 0px #00000026;
+}
+
+.footer__button-like {
+  height: 100%;
+  padding: 12px 30px;
+  position: absolute;
+  right: -1px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  @include textstayle(14px, 400, Ubuntu, #fff);
+}
+
+.footer__message-phone {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__text-phone-call {
+  @include textstayle(16px, 400, Ubuntu, #fff);
+}
+
+.footer__list {
+  li {
+    list-style: none;
+    line-height: 25px;
+    @include textstayle(14px, 500, Ubuntu, #000);
+    opacity: 0.5;
+  }
+}
+.footer__list-wrappper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer__list-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__logo-text {
+  display: flex;
+  gap: 7px;
+  @include textstayle(21px, 800, Montserrat, #000);
+}
+
+.footer__logo-number {
+  color: #8ce901;
+}
+
+.footer__list-logo-text {
+  max-width: 280px;
+  width: 100%;
+  @include textstayle(14px, 500, Ubuntu, #000);
+  line-height: 20px;
+}
+
+.footer__list-icon {
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__message-serch-email {
+    display: none;
+  }
+  .footer__list-wrappper {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer__message-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .footer__message-phone {
+    padding: 0 0 0 10px;
+  }
+}
