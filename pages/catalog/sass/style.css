@@ -148,7 +148,7 @@ mark {
   border-radius: 10px;
 }
 
-footer {
+.footer__wrapper {
   padding: 40px;
   background: #212526;
   max-width: 1920px;
@@ -157,17 +157,17 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-footer ul {
+.footer__wrapper ul {
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
 }
-footer a {
+.footer__wrapper a {
   color: #ffffff;
 }
-footer li {
+.footer__wrapper li {
   list-style: none;
 }
 
