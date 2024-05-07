@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  font-family: Prosto One;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+
+body {
+  background: whitesmoke;
+}
+
+section {
+  width: 1300px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+section ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px;
+}
+section ul li {
+  background: white;
+  border-radius: 5px;
+}
+section ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  width: 432px;
+  height: 64px;
+  color: black;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+section ul li:hover {
+  background: #f05a00;
+}
+section ul li:hover a {
+  color: white;
+}
+
+.cartCatologs {
+  width: 310px;
+  margin: 50px 0 30px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: auto auto;
+  background: whitesmoke;
+}
+.cartCatologs img {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 0;
+}
+.cartCatologs a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 0px 0px 5px 5px;
+  font-family: Raleway;
+  background: #212526;
+  color: white;
+}
+.cartCatologs a:hover {
+  background: #f05a00;
+  color: white;
+}
+
+.contanerCart {
+  border-radius: 5px 5px 0px 0px;
+  background: white;
+  margin-top: 4px;
+}
+.contanerCart .contanerCartCatalog {
+  margin: 0 auto;
+  max-width: 970px;
+  border: 1px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.refreshBranch {
+  width: 960px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.refreshBranch button {
+  border: none;
+  background: transparent;
+}
+.refreshBranch p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.toNextToBack {
+  width: 183px;
+  height: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+.toNextToBack p {
+  display: flex;
+  justify-content: space-around;
+}
+
+mark {
+  background: #f05a00;
+  padding: 4px 3px 4px 8px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 40px;
+  background: #212526;
+  max-width: 1920px;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+footer a {
+  color: #ffffff;
+}
+footer li {
+  list-style: none;
+}
+
+.sotial-media-contener {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.sotial-media-contener li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 100px;
+}
+.sotial-media-contener li img {
+  margin-top: 10px;
+}
+
+.div-contacts {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
