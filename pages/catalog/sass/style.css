@@ -148,9 +148,12 @@ mark {
   border-radius: 10px;
 }
 
+footer {
+  background: #212526;
+}
+
 .footer__wrapper {
   padding: 40px;
-  background: #212526;
   max-width: 1920px;
   display: flex;
   color: #ffffff;
