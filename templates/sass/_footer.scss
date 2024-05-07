@@ -1,12 +1,13 @@
-@import "./_normale.scss";
-
 footer {
-  padding: 40px;
   background: #212526;
+}
+
+.footer__wrapper {
+  padding: 40px;
   max-width: 1920px;
   display: flex;
   color: #ffffff;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   ul {
     font-family: Raleway;
