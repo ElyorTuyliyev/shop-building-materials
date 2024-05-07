@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wreppar">
+          <a href="#"><img src="../../svgs/logo-img.svg" alt="logo-img" /></a>
+          <div class="header__time-wrapper">
+            <p class="header__time-text">Время работы:</p>
+            <p class="header__time-text">10:00–20:00</p>
+          </div>
+          <div class="header__phone-wrapper">
+            <a class="header__phone-number" href="#">+7 495 120-32-14</a>
+            <a class="header__phone-text" href="#">Заказать звонок</a>
+          </div>
+          <div class="header__links-home">
+            <div class="header__links-wrapper">
+              <div class="header__links-heart header__links-bc">
+                <img src="../../svgs/heart.svg" alt="heart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div class="header__links-bar header__links-bc">
+                <img src="../../svgs/bar-chart-2.svg" alt="chart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div
+                class="header__links-person header__links-bc"
+                id="person-icon"
+                onclick="run()"
+              >
+                <!--  -->
+                <img src="../../svgs/person-icon.svg" alt="person-icon" />
+              </div>
+              <div class="header__links-shop header__links-bc">
+                <img src="../../svgs/shopping-cart.svg" alt="shopping-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+            </div>
+            <div class="header__product-money-wrapper">
+              <p class="header__product-text">Товаров на сумму</p>
+              <span class="header__product-money">2 000 ₽</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="container">
+          <div class="header__nav-wrapper">
+            <div class="header__nav-button-wrapper">
+              <a class="header__nav-bar-link" href="#">
+                <img src="../../svgs/bar-chart.svg" alt="chart-icon" />
+                Каталог товаров
+              </a>
+            </div>
+            <div class="header__nav-links-wrapper">
+              <ul class="header__nav-links-list-wrapper">
+                <li><a class="header__nav-link" href="#">О компании</a></li>
+                <li><a class="header__nav-link" href="#">Акции</a></li>
+                <li><a class="header__nav-link" href="#">Хиты сезона</a></li>
+                <li><a class="header__nav-link" href="#">Новинки</a></li>
+              </ul>
+            </div>
+            <div class="header__web-wrappepr">
+              <div class="header__web-home">
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/instagram.svg"
+                    alt="instagram-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/vk.svg"
+                    alt="vk-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/facebook.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="header__nav-serch-wrapprer">
+                <img src="../../svgs/search-icon.svg" alt="search-icon" />
+                <input
+                  class="header__nav-serch-input"
+                  type="search"
+                  placeholder="Поиск по каталогу"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="header__sign-up-wrapper">
+        <div class="header__sign-home">
+          <form class="form">
+            <h1 class="header__sign-up-title">Регистрация</h1>
+            <div class="header__login">
+              <label for="lastname">Фамилия</label>
+              <input type="text" id="lastname" />
+            </div>
+            <div class="header__login">
+              <label for="name">Имя</label> <input type="text" id="name" />
+            </div>
+            <div class="header__login">
+              <label for="tel">Телефон</label>
+              <input type="tel" placeholder="+7" id="tel" />
+            </div>
+            <div class="header__login">
+              <label for="email">Электронная почта</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="header__login">
+              <label for="password">Пароль</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="header__login">
+              <label for="repietPassword">Подтвердите пароль</label>
+              <input type="password" id="repietPassword" />
+            </div>
+            <input
+              class="header__form-submit"
+              type="submit"
+              value="РЕГИСТРАЦИЯ"
+            />
+
+            <p class="header__sign-up-text">
+              <span class="header__sign-up-text-bc">
+                Нажимая на кнопку вы соглашаетесь
+              </span>
+              на обработку ваших персональных данных
+            </p>
+            <img
+              class="header__form-cross"
+              id="cross"
+              src="../../svgs/cross-icon.svg"
+              alt="cross-icon"
+              onclick="closeModal()"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
