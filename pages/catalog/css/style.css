@@ -148,6 +148,13 @@ mark {
   border-radius: 10px;
 }
 
+p {
+  color: #8a8a8a;
+}
+p span {
+  color: #212526;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

@@ -122,5 +122,10 @@ mark {
   padding: 4px 3px 4px 8px;
   border-radius: 10px;
 }
-
+p {
+  color: #8a8a8a;
+  span {
+    color: #212526;
+  }
+}
 @import "../../../templates/sass/footer";
