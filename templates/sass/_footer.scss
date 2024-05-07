@@ -1,0 +1,46 @@
+@import "./_normale.scss";
+
+footer {
+  padding: 40px;
+  background: #212526;
+  max-width: 1920px;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  ul {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  a {
+    color: #ffffff;
+  }
+  li {
+    list-style: none;
+  }
+}
+.sotial-media-contener {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 100px;
+    img {
+      margin-top: 10px;
+    }
+  }
+}
+.div-contacts {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}

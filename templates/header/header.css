@@ -8,9 +8,22 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 10 px;
+  padding: 0 10px;
+}
+
+.header {
+  width: 100%;
+  background-color: #212526;
+}
+
+.nav {
+  background-color: #000000;
 }/*# sourceMappingURL=header.css.map */
