@@ -157,7 +157,7 @@ footer {
   max-width: 1920px;
   display: flex;
   color: #ffffff;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .footer__wrapper ul {
