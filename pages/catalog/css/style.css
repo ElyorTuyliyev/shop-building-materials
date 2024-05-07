@@ -134,6 +134,18 @@ section ul li:hover a {
 .toNextToBack {
   width: 183px;
   height: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+.toNextToBack p {
+  display: flex;
+  justify-content: space-around;
+}
+
+mark {
+  background: #f05a00;
+  padding: 4px 3px 4px 8px;
+  border-radius: 10px;
 }
 
 * {
