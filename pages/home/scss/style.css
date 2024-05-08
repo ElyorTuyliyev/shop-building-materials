@@ -606,6 +606,120 @@ main {
   background-color: #212526;
 }
 
+.brands__home {
+  padding: 54px 0;
+}
+
+.brands__title {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 0 0 28px 0;
+}
+
+.brands__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands__arrow-left,
+.brands__arrow-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.brands__arrow-left {
+  position: absolute;
+  left: -60px;
+  top: 18px;
+}
+
+.brands__arrow-right {
+  position: absolute;
+  right: -60px;
+  top: 18px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 80px 0;
+}
+
+.about__title {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+  padding: 0 0 24px 0;
+}
+
+.about__text,
+.about__text2 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  max-width: 529px;
+  width: 100%;
+  line-height: 24px;
+}
+
+.about__text2 {
+  padding: 20px 0 40px 0;
+}
+
+.about__button {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 5px;
+  background-color: #212526;
+  cursor: pointer;
+}
+
+.about__button:active {
+  transform: scale(0.98);
+}
+
+.new__items {
+  background-color: #000;
+}
+
+.new__wrapper {
+  max-width: 445px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+.new__link {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 20px;
+  color: #212526;
+}
+
+.new__link:hover {
+  color: #fff;
+}
+
 footer {
   background: #212526;
 }
