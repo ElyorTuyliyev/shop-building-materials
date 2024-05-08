@@ -1,0 +1,73 @@
+.home {
+  background-color: #212526;
+}
+
+.home__card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.home__card1,
+.home__card2,
+.home__card3-first,
+.home__card3-second,
+.home__card3-second {
+  position: relative;
+}
+
+.home__card1-text {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  @include textStyle(40px, 400, Prosto One, #ffffff);
+}
+
+.home__card1-button {
+  @include textStyle(14px, 600, Raleway, #ffffff);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f05a00;
+  position: absolute;
+  bottom: 200px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.home__card-next {
+  position: absolute;
+  bottom: 3px;
+  background-color: #000;
+  padding: 17px;
+  border-radius: 0 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.home__card-next:hover {
+  background-color: #f05a00;
+}
+
+.home__card2-text {
+  @include textStyle(20px, 400, Prosto One, #ffffff);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.home__card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__card3-first-text {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  @include textStyle(20px, 400, Prosto One, #ffffff);
+}
