@@ -327,8 +327,8 @@ li {
   border: 1px solid #a4a4a4;
 }
 
-bady {
-  background-color: #dedbdb;
+main {
+  background-color: #f2f5f7;
 }
 
 .nav__wrapper ul {
@@ -545,7 +545,7 @@ bady {
   padding: 0 7px;
   font-family: "Raleway";
   border: 0;
-  background-color: #180A3E;
+  background-color: #180a3e;
   color: #fff;
   font-size: 12px;
 }
@@ -615,7 +615,7 @@ bady {
 
 .korzinka-img {
   padding: 10px 18px;
-  border: 1px solid #F05A00;
+  border: 1px solid #f05a00;
   border-radius: 5px;
 }
 

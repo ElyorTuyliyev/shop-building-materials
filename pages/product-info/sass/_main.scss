@@ -1,246 +1,246 @@
-    bady{
-        background-color: #dedbdb;
-    }
-  .nav__wrapper ul {
-    display: flex;
-    gap: 11px;
-    padding: 15px 0 15px 0;
-  }
-  .nav__wrapper li {
-    display: flex;
-    gap: 10px;
-    font-family: "Raleway";
-    font-size: 13px;
-    font-weight: 700px;
-    opacity: 50%;
-  }
-  .nav__wrapper li:last-child {
-    opacity: 100%;
-    font-weight: bold;
-  }
-  .product-img__wrapper {
-    max-width: 1300px;
-    padding: 50px 50px;
-    background: #fff;
-    display: flex;
-  }
-  .main-img {
-    padding: 0 150px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .img__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .choose-img {
-    width: 100%;
-    padding: 10px 80px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .info-title {
-    width: 429px;
-    height: 64px;
-    font-size: 17px;
-    line-height: 25px;
-    font-weight: 400px;
-    font-family: "Prosto One";
-    padding-bottom: 20px;
-  }
-  .sale-link {
-    padding: 0 0 20px 0;
-  }
-  .info-pro__text {
-    width: 388px;
-    height: 80px;
-    margin-bottom: 30px;
-    font-family: "Raleway";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .product-cost__wrapper {
-    display: flex;
-    padding: 35px 0;
-    gap: 10px;
-    font-family: "Prosto One";
-  }
-  .product-cost__wrapper span {
-    font-size: 13px;
-    text-decoration: line-through;
-    opacity: 50%;
-  }
-  .btn__wrapper {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .btn__wrapper img {
-    width: 40px;
-  }
-  .btn__wrapper button {
-    width: 154px;
-    height: 50px;
-    border-radius: 5px;
-    padding: 14px, 32px, 14px, 32px;
-    font-size: 15px;
-    color: #fff;
-    border: 0;
-    background-color: rgba(240, 90, 0, 1);
-  }
-  .info-serves__wrapper {
-    max-width: 1300px;
-    height: 300px;
-    padding: 50px 50px;
-    border-top: 1px solid #dedbdb;
-    background-color: #fff;
-  }
-  .info-serves-title {
-    display: flex;
-    gap: 37px;
-    font-family: "Prosto One";
-  }
-  .info-serves-title a {
-    opacity: 50%;
-    position: relative;
-  }
-  .info-serves-title a:nth-child(2) {
-    opacity: 100%;
-  }
-  .underline-color::before {
-    content: "";
-    height: 2px;
-    width: 100%;
-    font-weight: bold;
-    left: 0;
-    position: absolute;
-    background: #f05a00;
-    bottom: -6px;
-  }
-  .characteristics-box{
-    padding: 37px 0;
-    font-size: 10px;
-    font-family: "Prosto One";
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-  }
-  .characteristics-box h1{
-    display: flex;
-    font-size: 15px;
-    gap: 25px;
-  }
-  .characteristics-box span{
-    font-size: 13px;
-    font-weight: 100;
-    opacity: 50%;
-  }
-  .character__wrapper{
-    display: flex;
-    gap: 73px;
-  }
-  .card-title{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .card-title{
-    font-size: 16px;
-    font-family: "Prosto One";
-  }
-  .next-card-btn button{
-    border-radius: 50%;
-    width: 35px;
-    border: 0;
-    height: 35px;
-    opacity: 50%;
-  }
-  .main-card__wrapper{
-    padding: 50px 0;
-  }
-  .next-card-btn button:first-child{
-    opacity: 100%;
-  }
-  .card__wrapper{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .card-box{
-    width: 310px;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background: #fff;
-  }
-  .box-top-btn{
-    display: flex;
-    justify-content: space-between;
-  }
-  .box-top-btn button{
-    padding: 0 7px;
-    font-family: "Raleway";
-    border: 0;
-    background-color: #180A3E;
-    color: #fff;
-    font-size: 12px;
-  }
-  .dagree-heart-icons{
-    display: flex;
-  }
-  .dagree-heart-icons img{
-    width: 30px;
-    opacity: 50%;
-  }
-  .condor-main-img{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .next-img-btn{
-    margin-top: 15px;
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-  }
-  .next-img-btn button{
-    width: 77px;
-    height: 2px;
-    border: 0;
-  }
-  .next-img-btn button:nth-child(2){
-    background-color: #f05a00;
-  }
-  .product-title{
-    padding: 10px 0;
-  }
-  .product-title h1{
-    width: 270px;
-    font-size: 17px;
-    font-weight: 600;
-    font-family: "Raleway";
-  }
-  .card-sale-text{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  .card-sale-text a{
-    display: flex;
-    gap: 10px;
-    color: #126935;
-  }
-  .card-sale-text span{
-    font-size: 13px;
-    text-decoration: line-through;
-    opacity: 50%;
-  }
-  .korzinka-img{
-    padding: 10px 18px;
-    border: 1px solid #F05A00;
-    border-radius: 5px;
-  }
+main {
+  background-color: #f2f5f7;
+}
+.nav__wrapper ul {
+  display: flex;
+  gap: 11px;
+  padding: 15px 0 15px 0;
+}
+.nav__wrapper li {
+  display: flex;
+  gap: 10px;
+  font-family: "Raleway";
+  font-size: 13px;
+  font-weight: 700px;
+  opacity: 50%;
+}
+.nav__wrapper li:last-child {
+  opacity: 100%;
+  font-weight: bold;
+}
+.product-img__wrapper {
+  max-width: 1300px;
+  padding: 50px 50px;
+  background: #fff;
+  display: flex;
+}
+.main-img {
+  padding: 0 150px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choose-img {
+  width: 100%;
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-title {
+  width: 429px;
+  height: 64px;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400px;
+  font-family: "Prosto One";
+  padding-bottom: 20px;
+}
+.sale-link {
+  padding: 0 0 20px 0;
+}
+.info-pro__text {
+  width: 388px;
+  height: 80px;
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.product-cost__wrapper {
+  display: flex;
+  padding: 35px 0;
+  gap: 10px;
+  font-family: "Prosto One";
+}
+.product-cost__wrapper span {
+  font-size: 13px;
+  text-decoration: line-through;
+  opacity: 50%;
+}
+.btn__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn__wrapper img {
+  width: 40px;
+}
+.btn__wrapper button {
+  width: 154px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 14px, 32px, 14px, 32px;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  background-color: rgba(240, 90, 0, 1);
+}
+.info-serves__wrapper {
+  max-width: 1300px;
+  height: 300px;
+  padding: 50px 50px;
+  border-top: 1px solid #dedbdb;
+  background-color: #fff;
+}
+.info-serves-title {
+  display: flex;
+  gap: 37px;
+  font-family: "Prosto One";
+}
+.info-serves-title a {
+  opacity: 50%;
+  position: relative;
+}
+.info-serves-title a:nth-child(2) {
+  opacity: 100%;
+}
+.underline-color::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  font-weight: bold;
+  left: 0;
+  position: absolute;
+  background: #f05a00;
+  bottom: -6px;
+}
+.characteristics-box {
+  padding: 37px 0;
+  font-size: 10px;
+  font-family: "Prosto One";
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.characteristics-box h1 {
+  display: flex;
+  font-size: 15px;
+  gap: 25px;
+}
+.characteristics-box span {
+  font-size: 13px;
+  font-weight: 100;
+  opacity: 50%;
+}
+.character__wrapper {
+  display: flex;
+  gap: 73px;
+}
+.card-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 16px;
+  font-family: "Prosto One";
+}
+.next-card-btn button {
+  border-radius: 50%;
+  width: 35px;
+  border: 0;
+  height: 35px;
+  opacity: 50%;
+}
+.main-card__wrapper {
+  padding: 50px 0;
+}
+.next-card-btn button:first-child {
+  opacity: 100%;
+}
+.card__wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-box {
+  width: 310px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+.box-top-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.box-top-btn button {
+  padding: 0 7px;
+  font-family: "Raleway";
+  border: 0;
+  background-color: #180a3e;
+  color: #fff;
+  font-size: 12px;
+}
+.dagree-heart-icons {
+  display: flex;
+}
+.dagree-heart-icons img {
+  width: 30px;
+  opacity: 50%;
+}
+.condor-main-img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.next-img-btn {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.next-img-btn button {
+  width: 77px;
+  height: 2px;
+  border: 0;
+}
+.next-img-btn button:nth-child(2) {
+  background-color: #f05a00;
+}
+.product-title {
+  padding: 10px 0;
+}
+.product-title h1 {
+  width: 270px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Raleway";
+}
+.card-sale-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card-sale-text a {
+  display: flex;
+  gap: 10px;
+  color: #126935;
+}
+.card-sale-text span {
+  font-size: 13px;
+  text-decoration: line-through;
+  opacity: 50%;
+}
+.korzinka-img {
+  padding: 10px 18px;
+  border: 1px solid #f05a00;
+  border-radius: 5px;
+}
