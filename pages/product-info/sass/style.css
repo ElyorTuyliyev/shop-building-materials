@@ -181,10 +181,15 @@ a {
 .next-card-btn button:first-child{
   opacity: 100%;
 }
+.card__wrapper{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 .card-box{
-  width: 350px;
-  height: 300px;
+  width: 310px;
   padding: 10px 10px;
+  border-radius: 10px;
   background: #fff;
 }
 .box-top-btn{
@@ -210,4 +215,49 @@ a {
   margin-top: 10px;
   display: flex;
   justify-content: center;
+}
+.next-img-btn{
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.next-img-btn button{
+  width: 77px;
+  height: 2px;
+  border: 0;
+}
+.next-img-btn button:nth-child(2){
+  background-color: #f05a00;
+}
+.product-title{
+  padding: 10px 0;
+}
+.product-title h1{
+  width: 270px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Raleway";
+}
+.card-sale-text{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card-sale-text a{
+  display: flex;
+  gap: 10px;
+  color: #126935;
+}
+.card-sale-text span{
+  font-size: 13px;
+  text-decoration: line-through;
+  opacity: 50%;
+}
+.korzinka-img{
+  padding: 10px 18px;
+  border: 1px solid #F05A00;
+  border-radius: 5px;
 }
