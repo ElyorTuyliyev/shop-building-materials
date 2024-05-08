@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./header.css" />
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./scss/style.css" />
   </head>
   <body>
     <header class="header">
@@ -145,6 +146,7 @@
             <input
               class="header__form-submit"
               type="submit"
+              onclick="closeModal()"
               value="РЕГИСТРАЦИЯ"
             />
 
@@ -166,6 +168,723 @@
       </div>
     </header>
 
+    <main class="main">
+      <section class="home">
+        <div class="container">
+          <div class="home__card-wrapper">
+            <div class="home__card1">
+              <img src="./images/img-cut.png" alt="img-cut" />
+              <p class="home__card1-text">
+                DeWALT - Инструмент с настоящим характером
+              </p>
+              <button class="home__card1-button">ПЕРЕЙТИ В КАТАЛОГ</button>
+              <div class="home__card-next">
+                <img src="./svgs/arrow-left.svg" alt="arrow" />
+              </div>
+            </div>
+
+            <div class="home__card2">
+              <img src="./images/home-img2.png" alt="img-settings" />
+              <p class="home__card2-text">Акции</p>
+
+              <div class="home__card-next">
+                <img src="./svgs/arrow-left.svg" alt="arrow" />
+              </div>
+            </div>
+
+            <div class="home__card3">
+              <div class="home__card3-first">
+                <img src="./images/home-img3.png" alt="colorBox" />
+                <p class="home__card3-first-text">Новое поступление</p>
+                <div class="home__card-next">
+                  <img src="./svgs/arrow-left.svg" alt="arrow" />
+                </div>
+              </div>
+              <div class="home__card3-second">
+                <img src="./images/home-img3.2.png" alt="colorBox" />
+                <p class="home__card3-first-text">Акции на сверла</p>
+                <div class="home__card-next">
+                  <img src="./svgs/arrow-left.svg" alt="arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="container">
+          <div class="cards__Wrapper">
+            <div class="cards__home">
+              <div class="cards__shop-items-left-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards__shop-items-right-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards__home">
+              <div class="cards__shop-items-left-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards__shop-items-right-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards__home">
+              <div class="cards__shop-items-left-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards__shop-items-right-wrapper">
+                <div class="cards__shop-items-left-text-wrapper">
+                  <h2 class="cards__shop-items-left-title">Малярные товары</h2>
+                  <div class="cards__shop-items-left-arrows">
+                    <a href="#">
+                      <img src="./svgs/arrow-left (1).svg" alt="arrow left" />
+                    </a>
+                    <a href="#">
+                      <img src="./svgs/Vector.svg" alt="arrow right" />
+                    </a>
+                  </div>
+                </div>
+                <div class="cards__shop-items-img-wrapper">
+                  <div class="cards__shop-items-left-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="cards__shop-items-right-img">
+                    <div class="cards__shop-items-left-img-button">
+                      <button>Новинка</button>
+                      <div class="cards__shop-items-left-img-icons">
+                        <a href="#">
+                          <img src="./svgs/bar-chart-2.svg" alt="chart" />
+                        </a>
+                        <a href="#">
+                          <img src="./svgs/heart.svg" alt="heart" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cards__shop-items-left-img-wrapper">
+                      <img src="./images/color-box.png" alt="color-box" />
+                    </div>
+                    <div class="cards__shop-items-left-line-wrapper">
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                      <div class="cards__shop-items-left-line"></div>
+                    </div>
+                    <p class="cards__shop-items-weight-text">
+                      Эмаль Condor ПФ-115 жёлтая 1,8 кг
+                    </p>
+                    <div class="cards__shop-items-money-wrapper">
+                      <div class="cards__shop-items-money-home">
+                        <p class="cards__shop-items-money">500 ₽</p>
+                        <p class="cards__shop-items-money-bc">720 ₽</p>
+                      </div>
+                      <div class="cards__shop-items-basket">
+                        <div class="cards__shop-items-check-wrapper">
+                          <img src="./svgs/check.svg" alt="check" />
+                          <p class="cards__shop-items-check-text">в наличии</p>
+                        </div>
+                        <div class="cards__shop-items-shopping-wrapper">
+                          <img src="./svgs/shopping-cart.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="brands__arrow-left">
+          <img src="./svgs/arrow-left (1).svg" alt="arrow-left" />
+        </div>
+        <div class="brands__arrow-right">
+          <img src="./svgs/Vector.svg" alt="arrow-right" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul>
+            <li>
+              <a href="#">Малярные товары</a>
+            </li>
+            <li>
+              <a href="#">Электрооборудование</a>
+            </li>
+            <li>
+              <a href="#">Спецодежда</a>
+            </li>
+            <li>
+              <a href="#">Для дома и дачи</a>
+            </li>
+            <li>
+              <a href="#">Сезонное</a>
+            </li>
+            <li>
+              <a href="#">Инструмент</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="#">Новинки</a>
+            </li>
+            <li>
+              <a href="#">Хиты сезона</a>
+            </li>
+            <li>
+              <a href="#">Распродажи</a>
+            </li>
+          </ul>
+          <div class="div-contacts">
+            <img src="../../svgs/logo-img.svg" alt="logo" />
+            <ul>
+              <li>+7 495 120-32-14</li>
+              <li>+7 495 120-32-15</li>
+            </ul>
+            <div>
+              <ul class="sotial-media-contener">
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/instagram.svg" alt="instagram-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="../../svgs/vk.svg" alt="vk-logo" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/facebook.svg" alt="facebook-logo"
+                  /></a>
+                </li>
+              </ul>
+              <ul>
+                <li><a href="#">Соглашение пользователя</a></li>
+                <li>«Copyright © Название 2023»</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./app.js"></script>
   </body>
 </html>
