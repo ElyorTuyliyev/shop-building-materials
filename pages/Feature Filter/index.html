@@ -17,6 +17,87 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="main__header">
+          <p class="main__header_p">Главная</p>
+          <p class="main__header_p">/</p>
+          <p class="main__header_p">Каталог</p>
+          <p class="main__header_p">/</p>
+          <p class="main__header_p">Для дома и дачи</p>
+          <p class="main__header_p">/</p>
+          <p class="main__header_b">Садово-огородный инвентарь</p>
+        </div>
+        <div class="main__header__topic">
+          <h1 class="main__header__topic__h1">Садово-огородный инвентарь</h1>
+        </div>
+        <div class="main__Sort">
+          <div class="main__Sort__div1">
+            <p>Сортировать:</p>
+            <select class="select" name="name" id="name">
+              <option value="O'zb">По популярности</option>
+              <option value="Rus">По возрастанию цены</option>
+              <option value="Eng">Сначала новые</option>
+              <option value="Eng">От А до Я</option>
+              <option value="Eng">От Я до А</option>
+            </select>
+          </div>
+          <div class="main__Sort__div2">
+            <b>Вид:</b>
+            <img
+              class="main__Sort__img1"
+              src="./Feature Filter Imgs/main__Sort__img1.svg"
+              alt=""
+            />
+            <img
+              class="main__Sort__img1"
+              src="./Feature Filter Imgs/main__Sort__img2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="main__element">
+          <div class="main__element__Catalogue">
+            <div class="main__element__Catalogue1">
+              <div class="main__element__Catalogue1-text">
+                <p class="main__element__Catalogue1-p">Малярные товары</p>
+                <img
+                  class="main__element__Catalogue1-p-icon"
+                  src="./Feature Filter Imgs/main__element__catalauge.png"
+                  alt=""
+                />
+              </div>
+              <div class="line"></div>
+              <div class="main__element__Catalogue1-text">
+                <p class="main__element__Catalogue1-p">Электроинструмент</p>
+                <img
+                  class="main__element__Catalogue1-p-icon"
+                  src="./Feature Filter Imgs/main__element__catalauge.png"
+                  alt=""
+                />
+              </div>
+              <div class="line"></div>
+              <div class="main__element__Catalogue1-text">
+                <p class="main__element__Catalogue1-p">Спецодежда</p>
+                <img
+                  class="main__element__Catalogue1-p-icon"
+                  src="./Feature Filter Imgs/main__element__catalauge.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
