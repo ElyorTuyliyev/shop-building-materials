@@ -1,3 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .header {
   width: 100%;
   background-color: #212526;
@@ -6,7 +27,8 @@
 .nav {
   background-color: #000000;
 }
-.header__wreppar {
+
+.header__wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,7 +42,10 @@
 }
 
 .header__time-text {
-  @include textStyle(16px, 500, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .header__phone-wrapper {
@@ -30,10 +55,17 @@
 }
 
 .header__phone-number {
-  @include textStyle(18px, 600, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
 }
+
 .header__phone-text {
-  @include textStyle(14px, 500, Raleway, #fc573b);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fc573b;
 }
 
 .header__links-home {
@@ -41,6 +73,7 @@
   align-items: center;
   gap: 16px;
 }
+
 .header__links-wrapper {
   display: flex;
   gap: 1px;
@@ -55,12 +88,13 @@
   position: relative;
   cursor: pointer;
 }
+
 .header__links-bc:hover {
   background-color: #f05a00;
-  .header__links-heart-counter {
-    background-color: #ffffff;
-    color: #000;
-  }
+}
+.header__links-bc:hover .header__links-heart-counter {
+  background-color: #ffffff;
+  color: #000;
 }
 
 .header__links-heart-counter {
@@ -74,7 +108,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @include textStyle(12px, 500, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
 }
 
 .header__product-money-wrapper {
@@ -84,10 +121,15 @@
   flex-direction: column;
   gap: 4px;
 }
+
 .header__product-text,
 .header__product-money {
-  @include textStyle(16px, 500, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
 }
+
 .header__product-money {
   font-weight: 700;
 }
@@ -103,13 +145,22 @@
   border: 1px solid #f05a00;
   padding: 15px 16px 15px 16px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #f2f5f7;
 }
 
 .header__nav-bar-link {
   display: flex;
   align-items: center;
   gap: 15px;
-  @include textStyle(16px, 500, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .header__nav-links-list-wrapper {
@@ -121,7 +172,10 @@
 .header__nav-link {
   border: 1px solid transparent;
   border-radius: 5px;
-  @include textStyle(16px, 500, Raleway, #ffffff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .header__web-wrappepr {
@@ -148,30 +202,42 @@
 
 .header__nav-serch-wrapprer {
   position: relative;
-  img {
-    position: absolute;
-    top: 12px;
-    left: 15px;
-  }
+}
+.header__nav-serch-wrapprer img {
+  position: absolute;
+  top: 12px;
+  left: 15px;
 }
 
 .header__nav-serch-input {
   padding: 16px 57px;
   border-radius: 5px;
   border: none;
+  outline: none;
+}
+
+::-moz-placeholder {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8a8a8a;
 }
 
 ::placeholder {
-  @include textStyle(16px, 500, Raleway, #8a8a8a);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8a8a8a;
 }
 
 #header__sign-up-wrapper {
   display: none;
 }
+
 #header__sign-up-wrapper-visible {
   width: 100%;
   height: 100vh;
-  background-color: #00000096;
+  background-color: rgba(0, 0, 0, 0.5882352941);
   position: fixed;
   left: 0;
   top: 0;
@@ -198,23 +264,32 @@
 
 .header__sign-up-title {
   text-align: center;
-  @include textStyle(20px, 400, Prosto One, #000);
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
 }
+
 .header__login {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  input {
-    border: none;
-    border-bottom: 1px solid #dedbdb;
-    outline: none;
-    @include textStyle(13px, 400, Prosto One, #000);
-  }
-
-  label {
-    @include textStyle(14px, 400, Prosto One, #a0a2a2);
-    padding: 25px 0 0 0;
-  }
+}
+.header__login input {
+  border: none;
+  border-bottom: 1px solid #dedbdb;
+  outline: none;
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
+}
+.header__login label {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a0a2a2;
+  padding: 25px 0 0 0;
 }
 
 .header__form-submit {
@@ -224,15 +299,22 @@
   background-color: #212526;
   border-radius: 5px;
   margin: 32px 0 12px 0;
-  @include textStyle(16px, 500, Raleway, #fff);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
   cursor: pointer;
 }
+
 .header__form-submit:active {
   transform: scale(0.98);
 }
 
 .header__sign-up-text {
-  @include textStyle(12px, 400, Raleway, #000);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
   line-height: 16px;
 }
 
@@ -250,4 +332,4 @@
 
 .header__form-cross:hover {
   border: 1px solid #a4a4a4;
-}
+}/*# sourceMappingURL=header.css.map */
