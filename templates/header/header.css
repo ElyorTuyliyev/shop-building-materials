@@ -159,6 +159,10 @@ li {
   display: block;
 }
 
+.menyu__bar:hover + .menyu__bar-link-home {
+  display: flex;
+}
+
 .line {
   width: 100%;
   border: 1px solid #f2f5f7;
@@ -201,6 +205,44 @@ li {
 
 .menyu__bar-items-bc:hover {
   background-color: #000000;
+}
+
+.menyu__bar-link-home {
+  background-color: white;
+  display: flex;
+  padding: 32px 52px;
+  position: absolute;
+  gap: 94px;
+  top: 90px;
+  left: 310px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1019607843);
+  display: none;
+}
+
+.menyu__bar-link-home:hover {
+  display: flex;
+}
+
+.menyu__bar-link-home:hover ~ .menyu__bar {
+  display: block;
+}
+
+.menyu__bar-link-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.menyu__bar-link {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.menyu__bar-link:hover {
+  color: #f05a00;
 }
 
 .header__nav-bar-link {
