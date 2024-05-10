@@ -111,11 +111,18 @@
   z-index: 9999;
 }
 
-.header__nav-button-wrapper:hover + .menyu__bar {
+.header__nav-button-wrapper:hover ~ .menu__bar-wrapper .menyu__bar {
   display: block;
 }
 
 .menyu__bar:hover {
+  display: block;
+}
+
+.menyu__bar-link-home:hover {
+  display: block;
+}
+.menyu__bar-link-home:hover + .menyu__bar {
   display: block;
 }
 
@@ -124,21 +131,27 @@
   border: 1px solid #f2f5f7;
 }
 
+.menu__bar-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 42px;
+
+  &:hover .menyu__bar-link-home {
+    display: flex;
+  }
+  &:hover .menyu__bar {
+    display: block;
+  }
+}
+
 .menyu__bar {
   max-width: 310px;
   width: 100%;
   background-color: #fff;
-  position: absolute;
-  top: 42px;
+  position: relative;
   z-index: 9;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   display: none;
-}
-
-.menyu__bar-items-bc {
-  background-color: #000000;
-  position: relative;
-  z-index: 888;
 }
 
 .menyu__bar-items-bc {
@@ -162,7 +175,35 @@
 .menyu__bar-items-bc:hover {
   background-color: #000000;
 }
-//  --------------------------------------
+
+.menyu__bar-link-home {
+  max-width: 900px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  padding: 32px 52px;
+  position: absolute;
+  gap: 94px;
+  top: 48px;
+  left: 311px;
+  z-index: 10;
+  box-shadow: 0px 20px 50px 0px #0000001a;
+  display: none;
+}
+
+.menyu__bar-link-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.menyu__bar-link {
+  @include textStyle(16px, 500, Raleway, #000000);
+}
+.menyu__bar-link:hover {
+  color: #f05a00;
+}
 
 .header__nav-bar-link {
   display: flex;
@@ -181,7 +222,7 @@
   border: 1px solid transparent;
   border-radius: 5px;
   position: relative;
-  z-index: 99;
+  z-index: 777;
   @include textStyle(16px, 500, Raleway, #ffffff);
 }
 
@@ -240,7 +281,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  z-index: 99999;
 }
 
 .header__sign-home {
@@ -308,8 +349,9 @@
   top: 50px;
   right: 50px;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .header__form-cross:hover {
-  border: 1px solid #a4a4a4;
+  border-color: #a4a4a4;
 }
