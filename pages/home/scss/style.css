@@ -720,6 +720,139 @@ main {
   color: #fff;
 }
 
+.cards-mini {
+  background-color: #212526;
+}
+
+.cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 52px 0;
+  position: relative;
+}
+
+.cards__arrow-position {
+  top: 220px;
+}
+
+.card-mini__box-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 52px 0;
+}
+
+.cards__box-wrapper {
+  display: flex;
+  gap: 4px;
+}
+
+.card-mini__box {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card-mini__box:hover {
+  background-color: #f05a00;
+}
+
+.cards-mini-text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f05a00;
+}
+
+.news__wrapper {
+  display: flex;
+  gap: 50px;
+  padding: 80px 0;
+}
+
+.news__text-wrapper {
+  max-width: 388px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.news__title {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+}
+
+.news__text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+}
+
+.news__btn {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 14px 32px;
+  background-color: #f05a00;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.news__btn:hover {
+  background-color: #c24a00;
+}
+
+.news__btn:active {
+  transform: scale(0.98);
+}
+
+.news__img-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.news__img-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.news__date-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.news__date-text {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  line-height: 24px;
+}
+
+.news__date {
+  font-family: Raleway;
+  font-weight: 200;
+  font-size: 16px;
+  color: #000;
+}
+
 footer {
   background: #212526;
 }

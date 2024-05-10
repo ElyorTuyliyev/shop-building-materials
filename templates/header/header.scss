@@ -1,3 +1,5 @@
+@import "../sass/normale";
+
 .header {
   width: 100%;
   background-color: #212526;
@@ -6,7 +8,7 @@
 .nav {
   background-color: #000000;
 }
-.header__wreppar {
+.header__wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -97,13 +99,70 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  position: relative;
 }
 
 .header__nav-button-wrapper {
   border: 1px solid #f05a00;
   padding: 15px 16px 15px 16px;
   border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
 }
+
+.header__nav-button-wrapper:hover + .menyu__bar {
+  display: block;
+}
+
+.menyu__bar:hover {
+  display: block;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #f2f5f7;
+}
+
+.menyu__bar {
+  max-width: 310px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 42px;
+  z-index: 9;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  display: none;
+}
+
+.menyu__bar-items-bc {
+  background-color: #000000;
+  position: relative;
+  z-index: 888;
+}
+
+.menyu__bar-items-bc {
+  background-color: #000000;
+  position: relative;
+  z-index: 888;
+}
+
+.menyu__bar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.menyu__bar-items:hover {
+  background-color: #212526;
+  color: #fff;
+}
+
+.menyu__bar-items-bc:hover {
+  background-color: #000000;
+}
+//  --------------------------------------
 
 .header__nav-bar-link {
   display: flex;
@@ -121,6 +180,8 @@
 .header__nav-link {
   border: 1px solid transparent;
   border-radius: 5px;
+  position: relative;
+  z-index: 99;
   @include textStyle(16px, 500, Raleway, #ffffff);
 }
 
@@ -159,6 +220,7 @@
   padding: 16px 57px;
   border-radius: 5px;
   border: none;
+  outline: none;
 }
 
 ::placeholder {
