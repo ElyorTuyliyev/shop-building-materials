@@ -1,10 +1,9 @@
-@mixin flex($flex, $center, $centerw){
-  display: $flex
-  justify-content: $center
-  align-items: $centerw
+@mixin flex($flex, $center, $centerw) {
+  display: $flex;
+  justify-content: $center;
+  align-items: $centerw;
 }
 h1 {
-
   font-family: Prosto One;
   font-size: 40px;
   font-weight: 400;
