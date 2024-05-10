@@ -151,7 +151,7 @@ li {
   z-index: 9999;
 }
 
-.header__nav-button-wrapper:hover + .menyu__bar {
+.header__nav-button-wrapper:hover ~ .menu__bar-wrapper .menyu__bar {
   display: block;
 }
 
@@ -159,8 +159,12 @@ li {
   display: block;
 }
 
-.menyu__bar:hover + .menyu__bar-link-home {
-  display: flex;
+.menyu__bar-link-home:hover {
+  display: block;
+}
+
+.menyu__bar-link-home:hover + .menyu__bar {
+  display: block;
 }
 
 .line {
@@ -168,21 +172,26 @@ li {
   border: 1px solid #f2f5f7;
 }
 
+.menu__bar-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 42px;
+}
+.menu__bar-wrapper:hover .menyu__bar-link-home {
+  display: flex;
+}
+.menu__bar-wrapper:hover .menyu__bar {
+  display: block;
+}
+
 .menyu__bar {
   max-width: 310px;
   width: 100%;
   background-color: #fff;
-  position: absolute;
-  top: 42px;
+  position: relative;
   z-index: 9;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   display: none;
-}
-
-.menyu__bar-items-bc {
-  background-color: #000000;
-  position: relative;
-  z-index: 888;
 }
 
 .menyu__bar-items-bc {
@@ -208,23 +217,17 @@ li {
 }
 
 .menyu__bar-link-home {
+  max-width: 900px;
+  width: 100%;
   background-color: white;
   display: flex;
   padding: 32px 52px;
   position: absolute;
   gap: 94px;
-  top: 90px;
+  top: 50px;
   left: 310px;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1019607843);
   display: none;
-}
-
-.menyu__bar-link-home:hover {
-  display: flex;
-}
-
-.menyu__bar-link-home:hover ~ .menyu__bar {
-  display: block;
 }
 
 .menyu__bar-link-text-wrapper {
@@ -265,7 +268,7 @@ li {
   border: 1px solid transparent;
   border-radius: 5px;
   position: relative;
-  z-index: 99;
+  z-index: 777;
   font-family: Raleway;
   font-weight: 500;
   font-size: 16px;
@@ -338,7 +341,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  z-index: 99999;
 }
 
 .header__sign-home {
@@ -422,8 +425,9 @@ li {
   top: 50px;
   right: 50px;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .header__form-cross:hover {
-  border: 1px solid #a4a4a4;
+  border-color: #a4a4a4;
 }/*# sourceMappingURL=header.css.map */
