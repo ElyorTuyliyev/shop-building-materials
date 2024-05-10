@@ -725,8 +725,7 @@ footer {
 }
 
 .footer__wrapper {
-  padding: 40px;
-  max-width: 1920px;
+  padding: 40px 0;
   display: flex;
   color: #ffffff;
   justify-content: space-between;
