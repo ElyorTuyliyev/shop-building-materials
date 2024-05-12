@@ -1,0 +1,113 @@
+$zagolovka: "Prosto One" sans-serif;
+$text-choice-medium_500: "Raleway", sans-serif;
+$text-paragrafe-regul-400: "Raleway", sans-serif;
+$zagolovka-font-weight: 500;
+$text-font-weight: 400;
+
+.crumbs {
+  @include display(flex, center, flex-start);
+  gap: 10px;
+  padding: 24px 0px 32px;
+}
+
+.crumbs-title {
+  font-family: $text-paragrafe-regul-400;
+  font-weight: $text-font-weight;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.crumbs_title {
+  color: #d9d7d7;
+}
+
+.comparison-wrapper {
+  @include display(flex, center, space-between);
+  font-family: $zagolovka;
+  font-weight: $text-font-weight;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 32px;
+}
+
+.sections_wrappers {
+  @include display(flex, center, center);
+  overflow-x: hidden;
+  gap: 2px;
+  padding-bottom: 22px;
+}
+
+.button-click {
+  width: 239px;
+  border-radius: 5px;
+  padding: 22px 40px;
+  background: #3b3b3b;
+  border: none;
+}
+
+.button-link {
+  font-family: $text-paragrafe-regul-400;
+  font-weight: $text-font-weight;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffff;
+}
+
+.ittiem {
+  background: #f05a00;
+}
+
+.ittiem1 {
+  width: 281px;
+}
+.ittiem2 {
+  width: 132px;
+}
+
+.ittiem3 {
+  width: 208px;
+}
+
+.ittiem4 {
+  width: 130px;
+}
+
+.ittiem5 {
+  width: 147px;
+}
+
+.ittiem6 {
+  width: 151px;
+}
+
+.differences-wrapper {
+  @include display(flex, center, space-between);
+  padding: 10px 0px;
+}
+
+.differences {
+  align-self: flex-start;
+}
+
+.differences-text {
+  font-family: $text-paragrafe-regul-400;
+  font-weight: $zagolovka-font-weight;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f05a00;
+}
+
+.goods-itiems {
+  background: #3b3b3b;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.goods-itiem-shopping-card {
+  @include display(flex, center, space-between);
+}
+
+.goods-img {
+  background: #3b3b3b;
+}
