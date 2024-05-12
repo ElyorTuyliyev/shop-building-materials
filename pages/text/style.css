@@ -569,4 +569,69 @@ footer {
   gap: 10px;
 }
 
+.footer__hidden-logo {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .header__nav-links-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 1030px) {
+  .header__time-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .header__phone-wrapper, .header__product-money-wrapper {
+    display: none;
+  }
+  .text-img-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .main-text .text-img-wrapper img, .main-text .text-img-wrapper div {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .header__web-home, .header__nav-serch-wrapprer {
+    display: none;
+  }
+  .footer__hidden-logo {
+    display: block;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  .footer__logo {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .header__links-bc {
+    padding: 20px 10px;
+  }
+  .header__links-heart-counter {
+    top: 15px;
+    left: 30px;
+  }
+  .main p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .main-text h1 {
+    font-size: 25px;
+  }
+  .main-text h2 {
+    font-size: 18px;
+  }
+  .footer__wrapper {
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
