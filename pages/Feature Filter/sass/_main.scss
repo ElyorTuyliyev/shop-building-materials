@@ -1,7 +1,12 @@
+body{
+   background-color: #f2f9f9;
+}
 .line{
    width: 100%;
    height: 1px;
-   background-color: #3b3b3b;
+   
+   border-color:
+   #3B3B3B;
 }
 
 .main__header{
@@ -45,12 +50,30 @@ text-align: left;
     font-size: 30px;
     margin-left: 8px;
  }
-
+.main__element{
+   display: flex;
+   gap: 24px;
+   margin-top: 24px;
+}
+.main__element__catalauge__cart{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
  .main__element__Catalogue1{
     background-color: black;
     width: 310px;
     color: white;
  }
+ .main__element__Catalogue2{
+   background-color: black;
+   width: 310px;
+   color: white;
+   margin-top: 24px;
+}
+.main__element__Catalogue3, .main__element__Catalogue4{
+   margin-top: 20px;
+}
  .main__element__Catalogue1-text{
    display: flex;
    justify-content: space-between;
@@ -65,4 +88,142 @@ text-align: left;
  }
 .main__element__Catalogue1-p-icon{
     margin-left: 70px;
+}
+.main__element__catalauge__cart1{
+width: 310px;
+height: 350px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid;
+border-color:white;
+background-color: white;
+}
+.main__element__catalauge__cart1__header{
+   display: flex;
+   justify-content:space-between;
+   margin-left: 12px;
+   margin-right: 12px;
+   margin-top: 12px;
+}
+.main__element__catalauge__cart1__header__p{
+   background-color: #180A3E;
+   color: white;
+   width: 70px;
+   height: 24px;
+   gap: 0px;
+   opacity: 0px;
+   text-align: center;
+   }
+.main__element__catalauge__cart1__img{
+   margin-top: 4px;
+   margin-left: 40px;
+   margin-right: 12px;
+   } 
+.main__element__catalauge__cart1__img__line1{
+   display: flex;
+   justify-content: center;
+   margin-top: 12px;
+   margin-left: 12px;
+   margin-right: 12px;
+   gap: 4px;
+   }
+.main__element__catalauge__cart1__img__line{
+   width: 69px;
+   height: 2px;
+   gap: 0px;
+   opacity: 0px;
+   background-color: #DEDBDB;
+   }
+.main__element__catalauge__cart1__img__line2{
+   width: 69px;
+   height: 2px;
+   gap: 0px;
+   opacity: 0px;
+   background-color: #FFB78B;
+   }
+.main__element__catalauge__cart1__text{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 12px;
+  margin-top: 14px;
+   }
+.main__element__catalauge__cart1__footer{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 12px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   
+}
+.main__element__catalauge__cart1__footer__p{
+   font-family: Raleway;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24px;
+   text-align: center;
+
+}
+.main__element__catalauge__cart1__footer__p1{
+   font-family: Raleway;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: center;
+   color: #DEDBDB;
+}
+.main__element__catalauge__cart1__footer__p2{
+font-family: Raleway;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #126935;
+
+}
+.main__element__catalauge__cart1__footer__img{
+   width: 60px;
+   height: 56px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #F05A00;
+   border-radius: 5px 0px 5px 0px;
+   border: 1px 0px 0px 0px;
+   margin-top: -18px;
+   }
+
+   .main__element__catalauge__cart1__footer__button{
+      width: 970px;
+      height: 60px;
+      margin-left: 335px;
+      gap: 0px;
+      border-radius: 5px 0px 0px 0px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      background-color: white;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+         }
+ .main__element__catalauge__cart1__footer__button2{       
+            margin-left: 333px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            
+      
+         }
+  .main__element__catalauge__cart1__footer__button1{       
+           border: none;
+           background: none;
+           }
+.footer__wrapper{
+   margin-top: 80px;
 }

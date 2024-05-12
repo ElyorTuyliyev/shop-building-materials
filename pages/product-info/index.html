@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sass/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wreppar">
+          <a href="#"><img src="../../svgs/logo-img.svg" alt="logo-img" /></a>
+          <div class="header__time-wrapper">
+            <p class="header__time-text">Время работы:</p>
+            <p class="header__time-text">10:00–20:00</p>
+          </div>
+          <div class="header__phone-wrapper">
+            <a class="header__phone-number" href="#">+7 495 120-32-14</a>
+            <a class="header__phone-text" href="#">Заказать звонок</a>
+          </div>
+          <div class="header__links-home">
+            <div class="header__links-wrapper">
+              <div class="header__links-heart header__links-bc">
+                <img src="../../svgs/heart.svg" alt="heart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div class="header__links-bar header__links-bc">
+                <img src="../../svgs/bar-chart-2.svg" alt="chart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div
+                class="header__links-person header__links-bc"
+                id="person-icon"
+                onclick="run()"
+              >
+                <!--  -->
+                <img src="../../svgs/person-icon.svg" alt="person-icon" />
+              </div>
+              <div class="header__links-shop header__links-bc">
+                <img src="../../svgs/shopping-cart.svg" alt="shopping-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+            </div>
+            <div class="header__product-money-wrapper">
+              <p class="header__product-text">Товаров на сумму</p>
+              <span class="header__product-money">2 000 ₽</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="container">
+          <div class="header__nav-wrapper">
+            <div class="header__nav-button-wrapper">
+              <a class="header__nav-bar-link" href="#">
+                <img src="../../svgs/bar-chart.svg" alt="chart-icon" />
+                Каталог товаров
+              </a>
+            </div>
+            <div class="header__nav-links-wrapper">
+              <ul class="header__nav-links-list-wrapper">
+                <li><a class="header__nav-link" href="#">О компании</a></li>
+                <li><a class="header__nav-link" href="#">Акции</a></li>
+                <li><a class="header__nav-link" href="#">Хиты сезона</a></li>
+                <li><a class="header__nav-link" href="#">Новинки</a></li>
+              </ul>
+            </div>
+            <div class="header__web-wrappepr">
+              <div class="header__web-home">
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/instagram.svg"
+                    alt="instagram-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/vk.svg"
+                    alt="vk-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/facebook.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="header__nav-serch-wrapprer">
+                <img src="../../svgs/search-icon.svg" alt="search-icon" />
+                <input
+                  class="header__nav-serch-input"
+                  type="search"
+                  placeholder="Поиск по каталогу"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="header__sign-up-wrapper">
+        <div class="header__sign-home">
+          <form class="form">
+            <h1 class="header__sign-up-title">Регистрация</h1>
+            <div class="header__login">
+              <label for="lastname">Фамилия</label>
+              <input type="text" id="lastname" />
+            </div>
+            <div class="header__login">
+              <label for="name">Имя</label> <input type="text" id="name" />
+            </div>
+            <div class="header__login">
+              <label for="tel">Телефон</label>
+              <input type="tel" placeholder="+7" id="tel" />
+            </div>
+            <div class="header__login">
+              <label for="email">Электронная почта</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="header__login">
+              <label for="password">Пароль</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="header__login">
+              <label for="repietPassword">Подтвердите пароль</label>
+              <input type="password" id="repietPassword" />
+            </div>
+            <input
+              class="header__form-submit"
+              type="submit"
+              value="РЕГИСТРАЦИЯ"
+            />
+
+            <p class="header__sign-up-text">
+              <span class="header__sign-up-text-bc">
+                Нажимая на кнопку вы соглашаетесь
+              </span>
+              на обработку ваших персональных данных
+            </p>
+            <img
+              class="header__form-cross"
+              id="cross"
+              src="../../svgs/cross-icon.svg"
+              alt="cross-icon"
+              onclick="closeModal()"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <nav class="nav__wrapper">
+          <ul>
+            <li><a href="">Главная</a>/</li>
+            <li><a href="">Каталог</a>/</li>
+            <li><a href="">Для дома и дачи</a>/</li>
+            <li><a href="">Садово-огородный инвентарь</a>/</li>
+            <li><a href="">Farbitex</a></li>
+          </ul>
+        </nav>
+        <section class="product-img__wrapper">
+          <div class="img__wrapper">
+            <div class="main-img">
+              <img src="./imgs/Rectangle 1436.png" alt="" />
+            </div>
+            <div class="choose-img">
+              <img src="./svg/paint-bucket.svg" alt="" />
+              <img src="./svg/paint-bucket.svg" alt="" />
+              <img src="./svg/paint-bucket.svg" alt="" />
+              <img src="./svg/paint-bucket.svg" alt="" />
+              <img src="./svg/paint-bucket.svg" alt="" />
+            </div>
+          </div>
+          <div class="product-info__wrapper">
+            <div class="info-title">
+              <h1>Краска Farbitex Для садовых деревьев</h1>
+            </div>
+            <div class="sale-link">
+              <a href="" style="color: rgba(18, 105, 53, 1)">В наличии</a>
+            </div>
+            <div class="info-pro__text">
+              <p>
+                Быстросохнущая, высокоукрывистая, защита от водорослей, мха,
+                лишайника, защита от грибка, светостойкая, термостойкая, защита
+                от вредителей
+              </p>
+            </div>
+            <div class="product-cost__wrapper">
+              <h1>500 ₽</h1>
+              <span>700 ₽</span>
+            </div>
+            <div class="btn__wrapper">
+              <button>В КОРЗИНУ</button>
+              <img src="./svg/bar-chart-2.svg" alt="" />
+              <img src="./svg/heart.svg" alt="" />
+            </div>
+          </div>
+        </section>
+        <div class="info-serves__wrapper">
+          <div class="info-serves-title">
+            <a href="">Описание</a>
+            <a href="" class="underline-color">Характеристики</a>
+            <a href="">Доставка</a>
+            <a href="">Отзывы</a>
+          </div>
+          <div class="character__wrapper">
+            <div class="characteristics-box">
+              <h1>Расход: <span>от 0,15 до 0,18 кг/м2</span></h1>
+              <h1>Назначение: <span>Для деревьев</span></h1>
+              <h1>Тип работ: <span>Наружное</span></h1>
+              <h1>Упаковка: <span>Ведро</span></h1>
+              <h1>Время высыхания: <span>1ч</span></h1>
+            </div>
+            <div class="characteristics-box">
+              <h1>Расход: <span>от 0,15 до 0,18 кг/м2</span></h1>
+              <h1>Назначение: <span>Для деревьев</span></h1>
+              <h1>Тип работ: <span>Наружное</span></h1>
+              <h1>Упаковка: <span>Ведро</span></h1>
+              <h1>Время высыхания: <span>1ч</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-card__wrapper">
+        <div class="container">
+          <div class="card-title">
+            <h1>Похожие товары</h1>
+            <div class="next-card-btn">
+              <button><i class="fa-solid fa-chevron-left"></i></button>
+              <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="card__wrapper">
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/black-condor-card-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/condor-cards-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/black-condor-card-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/condor-cards-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-card__wrapper">
+        <div class="container">
+          <div class="card-title">
+            <h1>Похожие товары</h1>
+            <div class="next-card-btn">
+              <button><i class="fa-solid fa-chevron-left"></i></button>
+              <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="card__wrapper">
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/black-condor-card-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/condor-cards-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/black-condor-card-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="box-top-btn">
+                <button>Новинка</button>
+                <div class="dagree-heart-icons">
+                  <img src="./svg/bar-chart-2.svg" alt="" />
+                  <img src="./svg/heart.svg" alt="" />
+                </div>
+              </div>
+              <div class="condor-main-img">
+                <img src="./imgs/condor-cards-img.png" alt="" />
+              </div>
+              <div class="next-img-btn">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div class="product-title">
+                <h1>Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+              </div>
+              <div class="card-sale-text">
+                <h1>500 ₽ <span>720 ₽</span></h1>
+                <a href=""><i class="fa-solid fa-check"> </i>в наличии</a>
+                <div class="korzinka-img">
+                  <img src="./svg/shopping-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul>
+            <li>
+              <a href="#">Малярные товары</a>
+            </li>
+            <li>
+              <a href="#">Электрооборудование</a>
+            </li>
+            <li>
+              <a href="#">Спецодежда</a>
+            </li>
+            <li>
+              <a href="#">Для дома и дачи</a>
+            </li>
+            <li>
+              <a href="#">Сезонное</a>
+            </li>
+            <li>
+              <a href="#">Инструмент</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="#">Новинки</a>
+            </li>
+            <li>
+              <a href="#">Хиты сезона</a>
+            </li>
+            <li>
+              <a href="#">Распродажи</a>
+            </li>
+          </ul>
+          <div class="div-contacts">
+            <img src="../../svgs/logo-img.svg" alt="logo" />
+            <ul>
+              <li>+7 495 120-32-14</li>
+              <li>+7 495 120-32-15</li>
+            </ul>
+            <div>
+              <ul class="sotial-media-contener">
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/instagram.svg" alt="instagram-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="../../svgs/vk.svg" alt="vk-logo" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/facebook.svg" alt="facebook-logo"
+                  /></a>
+                </li>
+              </ul>
+              <ul>
+                <li><a href="#">Соглашение пользователя</a></li>
+                <li>«Copyright © Название 2023»</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
