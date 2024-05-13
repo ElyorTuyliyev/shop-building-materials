@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/stayle.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="#"><img src="../../svgs/logo-img.svg" alt="logo-img" /></a>
+          <div class="header__time-wrapper">
+            <p class="header__time-text">Время работы:</p>
+            <p class="header__time-text">10:00–20:00</p>
+          </div>
+          <div class="header__phone-wrapper">
+            <a class="header__phone-number" href="#">+7 495 120-32-14</a>
+            <a class="header__phone-text" href="#">Заказать звонок</a>
+          </div>
+          <div class="header__links-home">
+            <div class="header__links-wrapper">
+              <div class="header__links-heart header__links-bc">
+                <img src="../../svgs/heart.svg" alt="heart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div class="header__links-bar header__links-bc">
+                <img src="../../svgs/bar-chart-2.svg" alt="chart-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+              <div
+                class="header__links-person header__links-bc"
+                id="person-icon"
+                onclick="run()"
+              >
+                <img src="../../svgs/person-icon.svg" alt="person-icon" />
+              </div>
+              <div class="header__links-shop header__links-bc">
+                <img src="../../svgs/shopping-cart.svg" alt="shopping-icon" />
+                <p class="header__links-heart-counter">0</p>
+              </div>
+            </div>
+            <div class="header__product-money-wrapper">
+              <p class="header__product-text">Товаров на сумму</p>
+              <span class="header__product-money">2 000 ₽</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="container">
+          <div class="header__nav-wrapper">
+            <div class="header__nav-button-wrapper">
+              <a class="header__nav-bar-link" href="#">
+                <img src="../../svgs/bar-chart.svg" alt="chart-icon" />
+                Каталог товаров
+              </a>
+            </div>
+            <div class="menu__bar-wrapper">
+              <div class="menyu__bar">
+                <div class="menyu__bar-items menyu__bar-items-bc">
+                  <p class="menyu__bar-items-text"></p>
+                </div>
+
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Малярные товары</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Электроинструмент</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Спецодежда</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Сезонное</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Для дома и дачи</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+                <div class="menyu__bar-items">
+                  <p class="menyu__bar-items-text">Инструменты</p>
+                  <img src="../../svgs/Vector.svg" alt="chart" />
+                </div>
+                <div class="line"></div>
+              </div>
+              <div class="menyu__bar-link-home">
+                <div class="menyu__bar-link-text-wrapper">
+                  <a class="menyu__bar-link" href="#"
+                    >Садово огородный инвентарь</a
+                  >
+                  <a class="menyu__bar-link" href="#">Поливочный инвентарь</a>
+                  <a class="menyu__bar-link" href="#">Поликарбонат</a>
+                  <a class="menyu__bar-link" href="#">Грунт</a>
+                  <a class="menyu__bar-link" href="#">Насосы</a>
+                  <a class="menyu__bar-link" href="#">Сетка Рабица</a>
+                  <a class="menyu__bar-link" href="#"
+                    >Летний душ, умывальники, рукомойники</a
+                  >
+                  <a class="menyu__bar-link" href="#"
+                    >Побелка, краска садовая</a
+                  >
+                  <a class="menyu__bar-link" href="#">Садовый декор</a>
+                  <a class="menyu__bar-link" href="#">Товары для отдыха</a>
+                  <a class="menyu__bar-link" href="#">
+                    Печное литьё и аксессуары</a
+                  >
+                </div>
+                <div class="menyu__bar-link-text-wrapper">
+                  <a class="menyu__bar-link" href="#"
+                    >Садово огородный инвентарь</a
+                  >
+                  <a class="menyu__bar-link" href="#">Поливочный инвентарь</a>
+                  <a class="menyu__bar-link" href="#">Поликарбонат</a>
+                  <a class="menyu__bar-link" href="#">Грунт</a>
+                  <a class="menyu__bar-link" href="#">Насосы</a>
+                  <a class="menyu__bar-link" href="#">Сетка Рабица</a>
+                  <a class="menyu__bar-link" href="#"
+                    >Летний душ, умывальники, рукомойники</a
+                  >
+                  <a class="menyu__bar-link" href="#"
+                    >Побелка, краска садовая</a
+                  >
+                  <a class="menyu__bar-link" href="#">Садовый декор</a>
+                  <a class="menyu__bar-link" href="#">Товары для отдыха</a>
+                  <a class="menyu__bar-link" href="#"
+                    >Печное литьё и аксессуары</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="header__nav-links-wrapper">
+              <ul class="header__nav-links-list-wrapper">
+                <li><a class="header__nav-link" href="#">О компании</a></li>
+                <li><a class="header__nav-link" href="#">Акции</a></li>
+                <li><a class="header__nav-link" href="#">Хиты сезона</a></li>
+                <li><a class="header__nav-link" href="#">Новинки</a></li>
+              </ul>
+            </div>
+            <div class="header__web-wrappepr">
+              <div class="header__web-home">
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/instagram.svg"
+                    alt="instagram-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/vk.svg"
+                    alt="vk-icon"
+                  />
+                </div>
+                <div class="header__nav-web-icon-wrapper">
+                  <img
+                    class="header__nav-icon header__nav-icon"
+                    src="../../svgs/facebook.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="header__nav-serch-wrapprer">
+                <img src="../../svgs/search-icon.svg" alt="search-icon" />
+                <input
+                  class="header__nav-serch-input"
+                  type="search"
+                  placeholder="Поиск по каталогу"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="header__sign-up-wrapper">
+        <div class="header__sign-home">
+          <form class="form">
+            <h1 class="header__sign-up-title">Регистрация</h1>
+            <div class="header__login">
+              <label for="lastname">Фамилия</label>
+              <input type="text" id="lastname" />
+            </div>
+            <div class="header__login">
+              <label for="name">Имя</label> <input type="text" id="name" />
+            </div>
+            <div class="header__login">
+              <label for="tel">Телефон</label>
+              <input type="tel" placeholder="+7" id="tel" />
+            </div>
+            <div class="header__login">
+              <label for="email">Электронная почта</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="header__login">
+              <label for="password">Пароль</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="header__login">
+              <label for="repietPassword">Подтвердите пароль</label>
+              <input type="password" id="repietPassword" />
+            </div>
+            <input
+              class="header__form-submit"
+              type="submit"
+              value="РЕГИСТРАЦИЯ"
+            />
+
+            <p class="header__sign-up-text">
+              <span class="header__sign-up-text-bc">
+                Нажимая на кнопку вы соглашаетесь
+              </span>
+              на обработку ваших персональных данных
+            </p>
+            <img
+              class="header__form-cross"
+              id="cross"
+              src="../../svgs/cross-icon.svg"
+              alt="cross-icon"
+              onclick="closeModal()"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul>
+            <li>
+              <a href="#">Малярные товары</a>
+            </li>
+            <li>
+              <a href="#">Электрооборудование</a>
+            </li>
+            <li>
+              <a href="#">Спецодежда</a>
+            </li>
+            <li>
+              <a href="#">Для дома и дачи</a>
+            </li>
+            <li>
+              <a href="#">Сезонное</a>
+            </li>
+            <li>
+              <a href="#">Инструмент</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="#">Новинки</a>
+            </li>
+            <li>
+              <a href="#">Хиты сезона</a>
+            </li>
+            <li>
+              <a href="#">Распродажи</a>
+            </li>
+          </ul>
+          <div class="div-contacts">
+            <img src="../../svgs/logo-img.svg" alt="logo" />
+            <ul>
+              <li>+7 495 120-32-14</li>
+              <li>+7 495 120-32-15</li>
+            </ul>
+            <div>
+              <ul class="sotial-media-contener">
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/instagram.svg" alt="instagram-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="../../svgs/vk.svg" alt="vk-logo" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../../svgs/facebook.svg" alt="facebook-logo"
+                  /></a>
+                </li>
+              </ul>
+              <ul>
+                <li><a href="#">Соглашение пользователя</a></li>
+                <li>«Copyright © Название 2023»</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
