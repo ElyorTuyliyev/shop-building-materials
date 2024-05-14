@@ -1,0 +1,159 @@
+.main {
+    background-color: #f2f5f7;
+}
+.main-links {
+    padding: 20px 0;
+    a {
+        padding-right: 15px;
+        color: #8A8A8A;
+        font-family: Raleway;
+        font-size: 14px;
+    }
+}
+
+.main-text {
+    padding-bottom: 20px;
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+        font-family: Prosto One;
+        padding-bottom: 15px;
+    }
+    .main-link {
+        display: flex;
+        gap: 100px;
+    }
+    h4 {
+        font-family: Prosto One;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    span {
+        font-family: Raleway;
+        font-weight: 500;
+    }
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-content: normal;
+    gap: 10px;
+    p {
+        background-color: #180A3E;
+        padding: 5px;
+        color: white;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-line-wrapper {
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+    div{
+        background-color: #DEDBDB;
+        height: 3px;
+        width: 54px;
+        :hover {
+            background-color: #FFB78B;
+        }
+    }
+}
+
+.main-title {
+    p {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 15px;
+    padding-top: 5px;
+
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.price-black {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.price-grey {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    color: #DEDBDB;
+}
+
+.price-cart-checkbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+.price-cart {
+    display: flex;
+    gap: 10px;
+    color: #126935;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main__show-more {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-numbers {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px 0 50px;
+    button {
+        border: none;
+        background-color: #f2f5f7;
+        border-radius: 2px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 5px 8px;
+    }
+}
