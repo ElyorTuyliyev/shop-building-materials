@@ -1,0 +1,36 @@
+@media screen and (max-width:1358px) {
+    .Brend{
+        display: flex;
+        justify-content: center;
+    }
+    .main__brend__cart{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+       
+     }
+       }
+    @media screen and (max-width:1028px) {
+      .Brend{
+        display: flex;
+        justify-content: center;
+      }
+     .main__brend__cart{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+       
+     }
+     }
+     @media screen and (max-width:698px) {
+        .Brend{
+          display: flex;
+          justify-content: center;
+        }
+       .main__brend__cart{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 5px;
+         
+       }
+       }     
