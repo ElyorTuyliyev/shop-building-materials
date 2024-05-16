@@ -197,18 +197,19 @@ color: #126935;
    }
 
    .main__element__catalauge__cart1__footer__button{
-      width: 970px;
-      height: 60px;
-      margin-left: 335px;
-      gap: 0px;
-      border-radius: 5px 0px 0px 0px;
-      border: 1px 0px 0px 0px;
-      opacity: 0px;
+      margin-left: 333px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
       background-color: white;
       margin-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
+      height:56px;
+      
          }
  .main__element__catalauge__cart1__footer__button2{       
             margin-left: 333px;
