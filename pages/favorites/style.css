@@ -681,6 +681,10 @@ footer {
   display: none;
 }
 
+.footer__hidden-logo {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .header__nav-links-wrapper {
     display: none;
@@ -691,7 +695,7 @@ footer {
     display: none;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .header__phone-wrapper, .header__product-money-wrapper {
     display: none;
   }
