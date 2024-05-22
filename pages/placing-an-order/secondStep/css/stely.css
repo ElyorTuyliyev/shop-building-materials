@@ -335,13 +335,6 @@ li {
   outline: none;
 }
 
-::-moz-placeholder {
-  font-family: Raleway;
-  font-weight: 500;
-  font-size: 16px;
-  color: #8a8a8a;
-}
-
 ::placeholder {
   font-family: Raleway;
   font-weight: 500;
@@ -522,4 +515,298 @@ footer {
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 10px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+body {
+  background: whitesmoke;
+}
+
+section {
+  width: 1300px;
+  gap: 0px;
+  border-radius: 5px 5px 0px 0px;
+  margin: 20px auto 0;
+}
+
+table {
+  background: #212526;
+  color: white;
+  width: 320px;
+  height: 230px;
+  padding: 50px;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.wrapper-main-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 734px;
+  padding: 20px 50px;
+}
+.wrapper-main-section li {
+  font-family: Prosto One;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.wrapper-main-section li a {
+  color: black;
+}
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+}
+.input-wrapper div {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.input-wrapper div input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 308px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.input-wrapper div label {
+  font-family: Prosto One;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #8a8a8a;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 20px;
+}
+
+section h1 {
+  font-family: Prosto One;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+section p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #8a8a8a;
+}
+
+.input-wrapper {
+  padding: 50px;
+}
+
+.price {
+  color: #f05a00;
+}
+
+.button {
+  width: 308px;
+  height: 50px;
+  color: white;
+  padding: 14px 32px;
+  background: #212526;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.underline-on-hover {
+  position: relative;
+}
+
+.underline-on-hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f05a00;
+  visibility: visible;
+  transition: transform 0.3s ease, visibility 0.3s ease;
+}
+
+.underline-on-hover:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f05a00;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: transform 0.3s ease, visibility 0.3s ease;
+}
+
+.underline:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+h4 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.selection-wrapper {
+  padding: 0 50px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 308px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+label {
+  font-family: Prosto One;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #8a8a8a;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 660px;
+  height: 238px;
+  gap: 20px;
+}
+.input__wrapper div {
+  display: flex;
+  flex-direction: column;
+}
+
+.addres {
+  width: 140px;
+}
+.addres input {
+  width: 140px;
+}
+
+button {
+  margin-top: 20px;
+  width: 308px;
+  height: 50px;
+  color: white;
+  padding: 14px 32px;
+  background: #212526;
+  border-radius: 5px;
+}
+
+.underline-on-hover {
+  position: relative;
+}
+
+.underline-on-hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f05a00;
+  visibility: visible;
+  transition: transform 0.3s ease, visibility 0.3s ease;
+}
+
+.underline-on-hover:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f05a00;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: transform 0.3s ease, visibility 0.3s ease;
+}
+
+.underline:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+h4 {
+  margin: 10px;
+}
+
+.radio__wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+select {
+  width: 200px;
+}
+
+.contaner-pickup {
+  display: none;
+}
+
+.wrapper-pickup {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.wrapper-pickup p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: black;
+}
+
+/*# sourceMappingURL=stely.css.map */
