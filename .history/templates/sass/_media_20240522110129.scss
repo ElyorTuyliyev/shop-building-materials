@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1035px) {
   .header__time-wrapper {
     display: none;
   }
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 700px) {
   .header__web-home,
   .header__nav-serch-wrapprer {
     display: none;
@@ -37,7 +37,7 @@
 
 @media (max-width: 550px) {
   .header__links-bc {
-    padding: 15px 14px;
+    padding: 20px 10px;
   }
   .header__links-heart-counter {
     top: 15px;

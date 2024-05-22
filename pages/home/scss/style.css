@@ -1017,7 +1017,7 @@ footer {
     display: none;
   }
 }
-@media (max-width: 1030px) {
+@media (max-width: 1050px) {
   .header__time-wrapper {
     display: none;
   }
@@ -1028,7 +1028,7 @@ footer {
     display: none;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .header__web-home,
   .header__nav-serch-wrapprer {
     display: none;
@@ -1047,7 +1047,7 @@ footer {
 }
 @media (max-width: 550px) {
   .header__links-bc {
-    padding: 20px 10px;
+    padding: 15px 14px;
   }
   .header__links-heart-counter {
     top: 15px;
