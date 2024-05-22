@@ -218,7 +218,6 @@ li {
 
 .menyu__bar-link-home {
   max-width: 900px;
-  width: 100%;
   background-color: white;
   display: flex;
   padding: 32px 52px;
@@ -697,6 +696,17 @@ footer {
 @media (max-width: 1200px) {
   .header__nav-links-wrapper {
     display: none;
+  }
+  .menyu__bar-link-home {
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    height: 520px;
+    left: 0;
+    top: 450px;
+  }
+  .menyu__bar {
+    max-width: 434px;
   }
 }
 @media (max-width: 1050px) {
