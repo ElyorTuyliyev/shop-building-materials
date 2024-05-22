@@ -19,27 +19,6 @@ li {
   padding: 0 10px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 .header {
   width: 100%;
   background-color: #212526;
@@ -506,27 +485,6 @@ li {
   width: 50%;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 footer {
   background: #212526;
 }
@@ -580,6 +538,10 @@ footer {
   display: none;
 }
 
+.footer__hidden-logo {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .header__nav-links-wrapper {
     display: none;
@@ -590,7 +552,7 @@ footer {
     display: none;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .header__phone-wrapper, .header__product-money-wrapper {
     display: none;
   }
