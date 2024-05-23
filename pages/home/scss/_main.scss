@@ -101,7 +101,7 @@ main {
   max-width: 464px;
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -258,7 +258,8 @@ main {
 
 .brands__wrapper {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   align-items: center;
   justify-content: space-between;
 }
@@ -349,8 +350,8 @@ main {
 }
 
 .cards__wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 52px 0;
   position: relative;

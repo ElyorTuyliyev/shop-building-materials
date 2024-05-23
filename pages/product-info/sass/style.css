@@ -19,27 +19,6 @@ li {
   padding: 0 10px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 .header {
   width: 100%;
   background-color: #212526;
@@ -239,7 +218,6 @@ li {
 
 .menyu__bar-link-home {
   max-width: 900px;
-  width: 100%;
   background-color: white;
   display: flex;
   padding: 32px 52px;
@@ -774,27 +752,6 @@ button {
   cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 footer {
   background: #212526;
 }
@@ -842,4 +799,8 @@ footer {
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 10px;
+}
+
+.footer__hidden-logo {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
