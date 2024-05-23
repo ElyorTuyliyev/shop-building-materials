@@ -268,21 +268,40 @@
             </li>
             <li class="underline-on-hover"><a href="#">Оплата </a></li>
           </ul>
-          <h4>Выберите подходящий вам вариант оплаты:</h4>
-          <div>
-            <input type="radio" name="pay" />
-            <label for="pay">Оплата при получении</label>
-            <input type="radio" name="pay" />
-            <label for="pay">Оплата при получении</label>
+          <div class="wrapper-radio-in-order">
+            <h4>Выберите подходящий вам вариант оплаты:</h4>
+            <div>
+              <div>
+                <input type="radio" name="pay" />
+                <label for="pay">Оплата при получении</label>
+              </div>
+              <div>
+                <input type="radio" name="pay" />
+                <label for="pay">Оплата онлайн</label>
+              </div>
+            </div>
           </div>
-          <div>
-            <input type="radio" name="pay" />
-            <label for="pay">наличными</label>
-            <input type="radio" name="pay" />
-            <label for="pay">банковской картой</label>
-            <input type="radio" name="pay" />
-            <label for="pay">криптовалютой</label>
-          </div>
+          <form>
+            <div class="paymentSection">
+              <div>
+                <input type="radio" name="pay" />
+                <label for="pay">наличными</label>
+              </div>
+              <div>
+                <input type="radio" name="pay" />
+                <label for="pay">банковской картой</label>
+              </div>
+              <div>
+                <input type="radio" name="pay" />
+                <label for="pay">криптовалютой</label>
+              </div>
+              <button>ПОДТВЕРДИТЬ ЗАКАЗ</button>
+            </div>
+            <p>
+              Нажимая на кнопку вы соглашаетесь на обработку ваших персональных
+              данных
+            </p>
+          </form>
         </div>
         <div>
           <table>

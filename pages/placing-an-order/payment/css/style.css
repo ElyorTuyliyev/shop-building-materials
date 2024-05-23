@@ -524,6 +524,62 @@ footer {
     justify-content: center;
   }
 }
+.wrapper-radio-in-order {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-radio-in-order h4 {
+  padding: 0 40px;
+}
+.wrapper-radio-in-order div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.wrapper-radio-in-order div div {
+  display: flex;
+  gap: 10px;
+}
+.wrapper-radio-in-order div div label {
+  color: black;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.paymentSection {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
+
+button {
+  max-width: 308px;
+  height: 50px;
+  padding: 14px 32px;
+  border-radius: 5px;
+  background: #f05a00;
+  color: white;
+}
+
+pre {
+  height: 32px;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+form {
+  padding: 10px 55px;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 10px;
+}
+
 body {
   background: whitesmoke;
 }
@@ -731,7 +787,7 @@ label {
   width: 140px;
 }
 
-button {
+.link-payment {
   margin-top: 20px;
   width: 308px;
   height: 50px;
@@ -739,6 +795,8 @@ button {
   padding: 14px 32px;
   background: #212526;
   border-radius: 5px;
+  display: block;
+  text-align: center;
 }
 
 .underline-on-hover {
