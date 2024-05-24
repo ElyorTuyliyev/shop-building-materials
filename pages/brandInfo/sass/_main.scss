@@ -1,0 +1,57 @@
+body {
+  background: whitesmoke;
+}
+section {
+  width: 1300px;
+  margin: 0 auto;
+}
+.titleMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 130px;
+  p {
+    color: #8a8a8a;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    span {
+      color: black;
+    }
+  }
+  h1 {
+    font-family: Prosto One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+  }
+}
+.brandDifination {
+  display: flex;
+  justify-content: space-between;
+  .img-brend-wraper {
+    padding: 38px 55px;
+    border-radius: 5px;
+    background: white;
+    img {
+      width: 200px;
+      height: 80px;
+      border-radius: 5px;
+    }
+  }
+  .img-brend-wraper + div {
+    width: 860px;
+    height: 96px;
+    p {
+      font-family: Raleway;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+}
+//copy past
