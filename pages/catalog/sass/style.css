@@ -612,4 +612,63 @@ footer {
 
 .footer__hidden-logo {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .header__nav-links-wrapper {
+    display: none;
+  }
+  .menyu__bar-link-home {
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    height: 520px;
+    left: 0;
+    top: 450px;
+  }
+  .menyu__bar {
+    max-width: 434px;
+  }
+}
+@media (max-width: 1050px) {
+  .header__time-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .header__phone-wrapper,
+  .header__product-money-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .header__web-home,
+  .header__nav-serch-wrapprer {
+    display: none;
+  }
+  .footer__hidden-logo {
+    display: block;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .footer__logo {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .header__links-bc {
+    padding: 15px 14px;
+  }
+  .header__links-heart-counter {
+    top: 15px;
+    left: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .footer__wrapper {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
