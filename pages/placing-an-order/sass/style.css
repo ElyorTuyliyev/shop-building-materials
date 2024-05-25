@@ -538,11 +538,6 @@ footer {
     left: 30px;
   }
 }
-@media (max-width: 400px) {
-  .footer__wrapper {
-    justify-content: center;
-  }
-}
 body {
   background: whitesmoke;
 }
