@@ -1065,11 +1065,6 @@ footer {
     left: 30px;
   }
 }
-@media (max-width: 400px) {
-  .footer__wrapper {
-    justify-content: center;
-  }
-}
 @media screen and (max-width: 1450px) {
   .brands__arrow-left,
   .brands__arrow-right {
