@@ -2,77 +2,7 @@
 body{
     width: 100%;
 }
-.main__element__Catalogue{
-    display: none;
-}
-.main__element{
-    display: flex;
-    justify-content: center;
-}
-
-.flex{
-  display: flex;
-  justify-content: center;
-  
-}
-.main__element__catalauge__cart1__footer__button, .main__element__catalauge__cart1__footer__button2{
-    width: 300px;
-    margin: 0;
-    margin-top: 24px;
-}
-
 
 
   }
-  @media screen and (max-width:1006px) {
-.main__element__catalauge__cart{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.main__element{
-    display: flex;
-    justify-content: center;
-}
 
-
-      }
- @media screen and (max-width:728px) {
-     .main__element__catalauge__cart{
-   display: grid;
-   grid-template-columns: 1fr;
-}
-    .main__element, .main__Sort__div1{
-   display: flex;
-   justify-content: center;
-        }
-    .main__Sort{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;   
-        gap: 20px;
-    }
-
- 
-  }
-  @media screen and (max-width:720px) {
- .main__Sort__div2{
-    display: none;
- }
-
-
- }
- @media screen and (max-width:627px) {
- .main__Sort{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-left: 0;
- }
- .main__Sort__div1{
-    display: flex;
-     margin-left:0;
-    gap: 0px;
-    text-align: center;
-  }
-
-    }
